@@ -11,13 +11,19 @@ struct ContentView: View {
     
     var body: some View {
         VStack(spacing: 15.0){
-            HStack(alignment: .center, spacing: 100.0) {
-                Text("Стоимость часа:")
-                    .font(.system(size: 25))
-                TextField("70", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
-                    .multilineTextAlignment(.center)
-                    .frame(width: 60.0, height: 30.0)
-            }
+            RoundedRectangle(cornerRadius: 30)
+                .fill(Color.gray)
+                .frame(height: 50, alignment: /*@START_MENU_TOKEN@*/.center/*@END_MENU_TOKEN@*/)
+                .overlay(
+                    HStack(alignment: .center) {
+                    Text("Стоимость часа:")
+                        .font(.system(size: 25))
+                        .padding(.trailing,20)
+                    TextField("70", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
+                        .multilineTextAlignment(.center)
+                        .frame(width: 60.0, height: 30.0)
+                })
+            
             HStack(alignment: .center, spacing: 100.0){
                 Text("Стоимость чека:")
                     .font(.system(size: 25))
