@@ -11,22 +11,15 @@ struct ContentView: View {
     
     @State var priceHour = ""
     @State var priceCheck = ""
+    @State var numberHour = 10.0
+    @State var numberCheck = 15.0
     
     var body: some View {
         VStack(){
             PriceView(label: "Стоимость часа", price: priceHour)
             PriceView(label: "Стоимость чека", price: priceCheck)
-            VStack {
-                Text("Количество часов")
-                Slider(value: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant(10)/*@END_MENU_TOKEN@*/)
-                    .padding(.horizontal, 25)
-            }
-            VStack {
-                Text("Количество чеков")
-                Slider(value: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant(10)/*@END_MENU_TOKEN@*/)
-                    .padding(.horizontal, 25)
-                
-            }
+            NumberSliderView(label: "Количество часов", n: numberHour, r: 1...20)
+            NumberSliderView(label: "Количество чеков", n: numberCheck, r: 0...35)
             
         }
     }

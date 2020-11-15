@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		286DFDC4256137D800376753 /* NumberSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DFDC3256137D800376753 /* NumberSliderView.swift */; };
 		288B4E4425610EF100C3BD86 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B4E4325610EF100C3BD86 /* PriceView.swift */; };
 		28C31A0A255C09910089191F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C31A09255C09910089191F /* AppDelegate.swift */; };
 		28C31A0C255C09910089191F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C31A0B255C09910089191F /* SceneDelegate.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		286DFDC3256137D800376753 /* NumberSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSliderView.swift; sourceTree = "<group>"; };
 		288B4E4325610EF100C3BD86 /* PriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
 		28C31A06255C09910089191F /* Courier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Courier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C31A09255C09910089191F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				28C31A09255C09910089191F /* AppDelegate.swift */,
 				28C31A0B255C09910089191F /* SceneDelegate.swift */,
 				28C31A0D255C09910089191F /* ContentView.swift */,
+				286DFDC3256137D800376753 /* NumberSliderView.swift */,
 				288B4E4325610EF100C3BD86 /* PriceView.swift */,
 				28C31A0F255C09950089191F /* Assets.xcassets */,
 				28C31A14255C09950089191F /* LaunchScreen.storyboard */,
@@ -149,6 +152,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				288B4E4425610EF100C3BD86 /* PriceView.swift in Sources */,
+				286DFDC4256137D800376753 /* NumberSliderView.swift in Sources */,
 				28C31A0A255C09910089191F /* AppDelegate.swift in Sources */,
 				28C31A0C255C09910089191F /* SceneDelegate.swift in Sources */,
 				28C31A0E255C09910089191F /* ContentView.swift in Sources */,
