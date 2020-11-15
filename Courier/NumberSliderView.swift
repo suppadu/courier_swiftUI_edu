@@ -18,10 +18,16 @@ struct NumberSliderView: View {
             Text(label)
                 .font(.system(size: 20))
             
+            Text(String(Int(n)))
+                .padding(5)
+            
             HStack {
                 Button(action: {
                     if case r = n {
                         n -= 1
+                        if n < r.lowerBound{
+                            n = r.lowerBound
+                        }
                     }else{
                         n = r.lowerBound
                     }
@@ -36,6 +42,9 @@ struct NumberSliderView: View {
                 Button(action: {
                     if case r = n {
                         n += 1
+                        if n > r.upperBound{
+                            n = r.upperBound
+                        }
                     }else{
                         n = r.upperBound
                     }

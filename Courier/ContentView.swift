@@ -16,11 +16,23 @@ struct ContentView: View {
     
     var body: some View {
         VStack(){
+            Text("COURIERATOR")
+                .font(Font.custom("Goldman-Bold", size: 35))
+                .padding(.vertical, 10)
+            Spacer()
             PriceView(label: "Стоимость часа", price: priceHour)
             PriceView(label: "Стоимость чека", price: priceCheck)
+            Spacer()
             NumberSliderView(label: "Количество часов", n: numberHour, r: 1...20)
             NumberSliderView(label: "Количество чеков", n: numberCheck, r: 0...35)
-            
+            Spacer()
+            Button(action: {
+                
+            }, label: {
+                Text("ПОСЧИТАТЬ")
+                    .foregroundColor(.gray)
+            })
+            .padding(25)
         }
     }
 }

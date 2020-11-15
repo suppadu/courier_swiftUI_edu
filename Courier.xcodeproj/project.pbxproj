@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		286DFDC4256137D800376753 /* NumberSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 286DFDC3256137D800376753 /* NumberSliderView.swift */; };
 		288B4E4425610EF100C3BD86 /* PriceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 288B4E4325610EF100C3BD86 /* PriceView.swift */; };
+		28B073E2256140DF0004638D /* Goldman-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28B073E0256140DF0004638D /* Goldman-Bold.ttf */; };
+		28B073E3256140DF0004638D /* Goldman-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 28B073E1256140DF0004638D /* Goldman-Regular.ttf */; };
 		28C31A0A255C09910089191F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C31A09255C09910089191F /* AppDelegate.swift */; };
 		28C31A0C255C09910089191F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C31A0B255C09910089191F /* SceneDelegate.swift */; };
 		28C31A0E255C09910089191F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28C31A0D255C09910089191F /* ContentView.swift */; };
@@ -20,6 +22,8 @@
 /* Begin PBXFileReference section */
 		286DFDC3256137D800376753 /* NumberSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumberSliderView.swift; sourceTree = "<group>"; };
 		288B4E4325610EF100C3BD86 /* PriceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PriceView.swift; sourceTree = "<group>"; };
+		28B073E0256140DF0004638D /* Goldman-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Goldman-Bold.ttf"; sourceTree = "<group>"; };
+		28B073E1256140DF0004638D /* Goldman-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Goldman-Regular.ttf"; sourceTree = "<group>"; };
 		28C31A06255C09910089191F /* Courier.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Courier.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28C31A09255C09910089191F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28C31A0B255C09910089191F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		286DFDC625613DD900376753 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				28B073E0256140DF0004638D /* Goldman-Bold.ttf */,
+				28B073E1256140DF0004638D /* Goldman-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		28C319FD255C09910089191F = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +73,7 @@
 		28C31A08255C09910089191F /* Courier */ = {
 			isa = PBXGroup;
 			children = (
+				286DFDC625613DD900376753 /* Fonts */,
 				28C31A09255C09910089191F /* AppDelegate.swift */,
 				28C31A0B255C09910089191F /* SceneDelegate.swift */,
 				28C31A0D255C09910089191F /* ContentView.swift */,
@@ -138,9 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28B073E2256140DF0004638D /* Goldman-Bold.ttf in Resources */,
 				28C31A16255C09950089191F /* LaunchScreen.storyboard in Resources */,
 				28C31A13255C09950089191F /* Preview Assets.xcassets in Resources */,
 				28C31A10255C09950089191F /* Assets.xcassets in Resources */,
+				28B073E3256140DF0004638D /* Goldman-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
